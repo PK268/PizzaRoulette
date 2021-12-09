@@ -39,7 +39,7 @@ public class Main {
                 while(selectedSlice == 2 && turns == 1){
                     //this is a special case in which the good slice is chosen from the start,
                     // for the game's sake the selected slice will re-randomize.
-                    // This ensures the player at least gets to do a turn instead of ending the game immediately.
+                    // This ensures the player at least gets to do a turn instead of ending the game immediately.e
                     selectedSlice = (int) (slicesAvailable.size() * Math.random() + 0);
                 }
 
